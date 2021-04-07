@@ -1,0 +1,274 @@
+body {
+	padding: 0;
+	margin: 0;
+	font-family: "Bender";
+	color: #747474;
+	font-size: 15px;
+}
+
+.container {
+	width: 1114px;
+	margin: 0 auto;
+}
+
+header {
+	background-color: #DDDAC7;
+	height: 65px;
+}
+
+.logo {
+	width: 144px;
+	float: left;
+}
+
+.menu{
+	margin: 0;
+	padding: 0;
+	float: left;
+	display: block;
+}
+
+.menu li {
+	margin: 0;
+	margin-left: 44px;
+	margin-top: 22px;
+	padding: 0;
+	float: right;
+	display: block;
+}
+
+.menu li a {
+	text-decoration: none;
+	color: black;
+}
+
+.menu_login {
+	margin: 0;
+	padding: 0;
+	float: right;
+	display: block;
+}
+
+.menu_login li {
+	margin: 0;
+	margin-left: 44px;
+	margin-top: 22px;
+	padding: 0;
+	float: right;
+	display: block;
+}
+
+.menu_login li a {
+	text-decoration: none;
+	color: black;
+}
+
+.authorized {
+	margin: 0;
+	padding: 0;
+	float: right;
+	display: block;
+}
+
+.authorized li {
+	margin: 0;
+	margin-left: 44px;
+	margin-top: 22px;
+	padding: 0;
+	float: right;
+	display: block;
+}
+
+.authorized li a {
+	text-decoration: none;
+	color: black;
+}
+
+@font-face {
+	font-family: "Bender"; 
+	src: url("../fonts/Bender.otf") format("truetype"); 
+	font-style: normal; 
+	font-weight: normal; 
+}
+
+@font-face {
+	font-family: "Bender_Black"; 
+	src: url("../fonts/Bender-Black.otf") format("truetype"); 
+	font-style: normal; 
+	font-weight: normal; 
+} 
+
+@font-face {
+	font-family: "Bender_Bold"; 
+	src: url("../fonts/Bender-Bold.otf") format("truetype"); 
+	font-style: normal; 
+	font-weight: normal; 
+} 
+
+@font-face {
+	font-family: "Bender_BoldItalic"; 
+	src: url("../fonts/Bender-BoldItalic.otf") format("truetype"); 
+	font-style: normal; 
+	font-weight: normal; 
+}
+
+.title {
+	background-color: #CFCEC5;
+	height: 55px;
+	margin-bottom: 50px;
+}
+
+.title img {
+	margin-top: 16px;
+	float: left;
+}
+
+.sellers {
+	height: 450px;
+}
+
+.seller_images {
+	padding: 0;
+	margin: 0;
+	display: block;
+	float: left;
+}
+
+.seller_images li {
+	float: left;
+	display: block;
+	margin-right: 57px;
+}
+
+.seller_images li:nth-child(3) {
+	margin-right: 0;
+}
+
+.title_seller {
+	padding: 0;
+	margin: 0;
+	display: block;
+	float: left;
+}
+
+.title_seller li:nth-child(1) {
+	padding: 0;
+	margin-left: 133px;
+	display: inline;
+	float: left;
+}
+
+.title_seller li {
+	margin-left: 300px;
+	display: inline;
+	float: left;
+}
+
+.title_seller li p {
+	font-size: 18px;
+	font-color: #333333;
+}
+
+.description_seller {
+	padding: 0;
+	margin: 0;
+	display: block;
+	float: left;
+}
+
+.description_seller li {
+	display: inline;
+	float: left;
+	width: 333px;
+	margin-right: 57px;
+}
+
+.description_seller li:nth-child(3) {
+	margin-right: 0px;
+}
+
+.button_seller {
+	padding: 0;
+	margin: 0;
+	display: block;
+	float: left;
+}
+
+.button_seller li {
+	float: left;
+	display: inline;
+	margin-left: 57px;
+}
+
+.button_seller li:nth-child(1) {
+	margin-left: 0;
+}
+
+.about {
+	height: 800px;
+}
+
+footer {
+	height: 320px;
+	padding-top: 30px;
+	justify-content: center;
+	background-color: #363839;
+	box-shadow: 0px -10px 0px rgba(0, 0, 0, 0.15);
+	display: grid;
+	grid-template-columns: auto auto auto;
+	grid-column-gap: 161px;
+}
+
+.fresh_news {
+	width: 264px;
+	height: 247px;
+	display: block;
+}
+
+.allnews {
+	width: 264px;
+	height: auto;
+	display: flex;
+	flex-direction: column;
+}
+
+.allnews div {
+	height: 32px;
+	padding-top: 10px;
+	border-bottom: 1px solid #646464;
+}
+
+.articles {
+	width: 264px;
+	height: auto;
+	display: block;
+}
+
+.all_articles {
+	width: 100%;
+	height: auto;
+	display: flex;
+	flex-direction: column;
+}
+
+.all_articles div {
+	height: 32px;
+	padding-top: 10px;
+	border-bottom: 1px solid #646464;
+}
+
+.about_us {
+	width: 264px;
+	height: auto;
+	display: flex;
+	flex-direction: column;
+}
+
+.about_us div {
+	height: 21px;
+	padding-top: 10px;
+}
+
+.about_us div span {
+	color: #e5e5e5;
+}
